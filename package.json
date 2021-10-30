@@ -1,0 +1,24 @@
+{
+    "name": "Basic-API-Hacktoberfest",
+    "version": "1.0.0",
+    "description": "This is an API for Hacktoberfest",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/utplakshi/Basic-API-Hacktoberfest.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/utplakshi/Basic-API-Hacktoberfest/issues"
+    },
+    "homepage": "https://github.com/utplakshi/Basic-API-Hacktoberfest#readme",
+    "dependencies": {
+        "express": "^4.17.1"
+    }
+}
