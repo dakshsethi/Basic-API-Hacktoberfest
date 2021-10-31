@@ -24,6 +24,11 @@ app.get('/data', (req, res) => {
     res.send(data);
 });
 
+app.get('/data/:id', (req, res) => {
+    const id = req.params.id;
+    res.send(data[id - 1]);
+});
+
 /***** Make the API go online *****/
 const port = process.env.PORT || 8080;
 app.listen(port, () => {
